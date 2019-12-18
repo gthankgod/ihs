@@ -18,7 +18,7 @@
 
     products.forEach(product => {
         let div = document.createElement('div');
-        div.className = 'col-sm-4';
+        div.className = 'col-xs-4';
 
         let htmlProduct = `
             <div class="card mb-3" style="max-width: 540px;">
@@ -47,7 +47,7 @@
         producttitle.textContent = 'All Products';
         products.forEach(product => {
             let div = document.createElement('div');
-            div.className = 'col-sm-4';
+            div.className = 'col-xs-4';
             let htmlProduct = `
                 <div class="card mb-3" style="max-width: 540px;">
                   <div class="row no-gutters">
@@ -76,7 +76,7 @@
         products.forEach(product => {
             if (product.category === 'Shirt') {
                 let div = document.createElement('div');
-                div.className = 'col-sm-4';
+                div.className = 'col-xs-4';
 
                 let htmlProduct = `
             <div class="card mb-3" style="max-width: 540px;">
@@ -107,7 +107,7 @@
         products.forEach(product => {
             if (product.category === 'Shoes') {
                 let div = document.createElement('div');
-                div.className = 'col-sm-4';
+                div.className = 'col-xs-4';
 
                 let htmlProduct = `
             <div class="card mb-3" style="max-width: 540px;">
@@ -138,7 +138,7 @@
         products.forEach(product => {
             if (product.category === 'Wrist watch') {
                 let div = document.createElement('div');
-                div.className = 'col-sm-4';
+                div.className = 'col-xs-4';
 
                 let htmlProduct = `
             <div class="card mb-3" style="max-width: 540px;">
